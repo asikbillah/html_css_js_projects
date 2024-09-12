@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(31, 202, 122);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 700px;
+    margin: 20px;
+    padding: 20px;
+    background: aliceblue;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 20px;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#00DBDE, #FC00FF);
+    border-radius: 100px;
+}
